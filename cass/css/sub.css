@@ -1,0 +1,1117 @@
+@charset "utf-8";
+
+.brandstory {
+	margin-top: 50px;
+	margin-bottom: 75px;
+	background: url(../img/brandstory_background.jpg)no-repeat center/cover;
+	height: 1581px;
+}
+
+.brandstory:before {
+	display: table;
+	content: "";
+}
+
+.brandstory h2 {
+	margin: 50px 0;
+	color: #fff;
+}
+
+.brandstory .img_center {
+	position: relative;
+	margin: 0 auto;
+	width: 82.66%;
+	height: 173px;
+	background: url(../img/brandstory_center.jpg)no-repeat center/cover;
+}
+
+.brandstory .brand_box1 {
+	width: 100%;
+	height: 211px;
+	background: #152544;
+	margin-top: -57px;
+	margin-bottom: 125px;
+}
+
+.brandstory p {
+	color:#fff;
+	font-size: 1.25rem;
+	line-height: 1.8;
+}
+
+.brand_box1:before {
+	display: table;
+	content: "";
+}
+
+.brandstory .brand_box1 p {
+	margin-top: 83px;
+	text-align: center;
+}
+
+.brandstory .img_bottle {
+	position: relative;
+	width: 92.53%;
+	height: 248px;
+	background: url(../img/brandstory_bottle.jpg)no-repeat center/cover;
+}
+
+.brandstory .brand_box2 {
+	float: right;
+	margin-top: -95px;
+	width: 91.46%;
+	height: 273px;
+	background: #152544;
+	margin-bottom: 215px;
+}
+
+.brandstory .brand_box2 .story_text {
+	text-align: center;
+}
+
+.brandstory .brand_box2 p {
+	display: inline-block;
+	margin-top: 133px;
+	text-align: left;
+}
+
+.brandstory .box_img {
+	position: relative;
+}
+
+.brandstory .img_recycle {
+	position: absolute;
+	top: -89px;
+	right: 0;
+	width: 62.66%;
+	min-width: 235px;
+	height: 126px;
+	background: url(../img/brandstory_recycle.jpg)no-repeat center/cover;
+}
+
+.brandstory .brand_box3 {
+	width: 88.8%; /*333/375*/
+	height: 206px;
+	background: #152544;
+	text-align: center;
+}
+
+
+
+.brandstory .brand_box3 .story_text {
+	text-align: center;
+}
+
+.brandstory .brand_box3 p {
+	display: inline-block;
+	text-align: right;
+	margin: 69px auto 0;
+}
+
+/*history*/
+
+.history {
+	margin-bottom: 100px;
+}
+
+.history h2 {
+	margin-bottom: 50px;
+}
+
+.history .year h3 {
+	position: relative;
+	font-size: 2rem;
+	color: #05408c;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.history .history_con {
+	position: relative;
+}
+
+.history .history_con:before {
+	position: absolute;
+	left: 11.73%;
+	top: 5px;
+	content:"";
+	width: 1px;
+	height: calc(100% - 145px);
+	background: #05408c;
+}
+
+/*.history .year h3:before {
+	position: absolute;
+	left: -8.06%;
+	top: 3px;
+	content: "";
+	display: block;
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+	border: 1.5px solid #05408c;
+	background: #fff;
+}*/
+
+.history .year p strong {
+	font-weight: bold;
+}
+
+.history .year p {
+	font-size: 1.25rem;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+/*history contents*/
+
+.history .year {
+	margin-left: 16.26%; /*61/375*/
+}
+
+.history .con_2021 {
+	width: 66.13%; /*248/375*/
+	height: 162px;
+	background: url(../img/2021.jpg)no-repeat right 27px/65px 99px; /*183/314*/
+}
+
+.history .con_2020 {
+	width: 75.73%; /*284/375*/
+	height: 165px; 
+	background: url(../img/768-2020.jpg)no-repeat right 27px/135px 85px; /*149/314*/
+}
+
+.history .con_2019 { 
+	width: 67.2%;/*252/375*/
+	height: 182px;
+	background: url(../img/2019.jpg)no-repeat right 23px/73px 126px; /*179/314*/
+}
+ 
+.history .con_2018 {
+	width: 71.73%; /*269/375*/
+	height: 161px;
+	background: url(../img/768-2018.jpg)no-repeat right 26px/96px 126px;
+}
+
+.history .con_2017 {
+	width: 70.66%; /*265/375*/
+	height: 190px;
+	background: url(../img/2017.jpg)no-repeat right 8px/98px 163px;
+}
+
+.history .con_2016 {
+	width: 79.46%; /*298/375*/
+	height: 210px;
+	background: url(../img/768-2016.jpg)no-repeat right 22px/179px 135px;
+}
+
+.history .con_2015 {
+	width: 78.13%; /*293/375*/
+	height: 183px;
+	background: url(../img/2015.jpg)no-repeat right 26px/98px 94px;
+}
+
+.history .con_2014 {
+	width: 77.6%; /*291/375*/
+	height: 154px;
+	background: url(../img/2014.jpg)no-repeat right 26px/142px 80px;
+}
+
+
+.history .con_2013 {
+	width: 74.13%; /*278/375*/
+	height: 177px;
+	background: url(../img/2013.jpg)no-repeat right 22px/113px 106px;
+}
+
+.history .con_2013 p {
+	position: relative;
+	padding-left: 30px;
+}
+
+.history .con_2013 strong {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.history .con_2012 {
+	height: 128px;
+}
+
+.history .con_2011 {
+	width: 71.73%; /*269/375*/
+	height: 177px;
+	background: url(../img/2011logo.jpg)no-repeat right 24px/90px 62px;
+}
+
+.history .con_2011 p {
+	position: relative;
+	padding-left: 30px;
+}
+
+.history .con_2011 strong {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.history .con_2010 {
+	width: 72.26%; /*278/375*/
+	height: 177px;
+	background: url(../img/2010.jpg)no-repeat right 24px/93px 138px;
+}
+
+.history .con_2009 {
+	width: 77.6%; /*291/375*/
+	height: 209px;
+	background: url(../img/2009.jpg)no-repeat right 21px/149px 147px;
+}
+
+.history .con_2008 {
+	width: 83.73%; /*314/375*/
+	height: 200px;
+	background: url(../img/768-2008.jpg)no-repeat right 26px/188px 113px;
+}
+
+.history .con_2007 {
+	width: 78.4%; /*294/375*/
+	height: 217px;
+	background: url(../img/2007led.jpg)no-repeat right 26px/157px 147px;
+}
+
+.history .con_2006 {
+	width: 65.06%; /*244/375*/
+	height: 162px;
+	background: url(../img/2006icelight.jpg)no-repeat right 26px/56px 102px;
+}
+
+.history .con_2005 {
+	width: 70.13%; /*263/375*/
+	height: 121px;
+	background: url(../img/2005logo.jpg)no-repeat right 22px/94px 63px;
+}
+
+.history .con_2004 {
+	width: 67.2%; /*252/375*/
+	height: 143px;
+	background: url(../img/2004logo.jpg)no-repeat right 25px/73px 74px;
+}
+
+.history .con_1995_1997 {
+	height: 91px;
+}
+
+.history .con_1994 {
+	width: 81.06%; /*304/375*/
+	height: 150px;
+	background: url(../img/cass-birth.jpg)no-repeat right 27px/179px 123px;
+}
+
+
+/*768-start*/
+@media all and (min-width:768px) {
+	.brandstory {
+	margin-top: 100px;
+	margin-bottom: 150px;
+	background: url(../img/brandstory_background.jpg)no-repeat center/cover;
+	height: 3153px;
+}
+
+.brandstory:before {
+	display: table;
+	content: "";
+}
+
+.brandstory h2 {
+	margin: 100px 0;
+	color: #fff;
+}
+
+.brandstory .img_center {
+	position: relative;
+	margin: 0 auto;
+	width: 80.72%; /*620/768*/
+	height: 346px;
+	background: url(../img/brandstory_center.jpg)no-repeat center/cover;
+}
+
+.brandstory .brand_box1 {
+	width: 100%;
+	height: 421px;
+	background: #152544;
+	margin-top: -114px;
+	margin-bottom: 250px;
+}
+
+.brandstory p {
+	color:#fff;
+	font-size: 2.5rem;
+	line-height: 1.8;
+}
+
+.brand_box1:before {
+	display: table;
+	content: "";
+}
+
+.brandstory .brand_box1 p {
+	margin-top: 165px;
+	text-align: center;
+}
+
+.brandstory .img_bottle {
+	position: relative;
+	width: 90.36%; /*694/768*/
+	height: 248px;
+	background: url(../img/brandstory_bottle.jpg)no-repeat center/cover;
+}
+
+.brandstory .brand_box2 {
+	float: right;
+	margin-top: -188px;
+	width: 90.36%; /*694/768*/
+	height: 546px;
+	background: #152544;
+	margin-bottom: 427px;
+}
+
+.brandstory .brand_box2 .story_text {
+	text-align: center;
+}
+
+.brandstory .brand_box2 p {
+	display: inline-block;
+	margin-top: 265px;
+	text-align: left;
+}
+
+.brandstory .box_img {
+	position: relative;
+}
+
+.brandstory .img_recycle {
+	position: absolute;
+	top: -178px;
+	right: 0;
+	width: 61.19%; /*470/768*/
+	min-width: 470px;
+	height: 251px;
+	background: url(../img/brandstory_recycle.jpg)no-repeat center/cover;
+}
+
+.brandstory .brand_box3 {
+	width: 87.76%; /*674/768*/
+	height: 410px;
+	background: #152544;
+	text-align: center;
+}
+
+
+
+.brandstory .brand_box3 .story_text {
+	text-align: center;
+}
+
+.brandstory .brand_box3 p {
+	display: inline-block;
+	text-align: right;
+	margin: 139px auto 0;
+}
+
+/*history*/
+
+.history {
+	margin-bottom: 200px;
+}
+
+.history h2 {
+	margin-bottom: 100px;
+}
+
+.history .year h3 {
+	position: relative;
+	font-size: 4rem;
+	color: #05408c;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.history .history_con {
+	position: relative;
+}
+
+.history .history_con:before {
+	position: absolute;
+	left: 12.63%; /*97/768*/
+	top: 16px;
+	content:"";
+	width: 1px;
+	height: calc(100% - 295px);
+	background: #05408c;
+}
+
+/*.history .year h3:before {
+	position: absolute;
+	left: -8.06%;
+	top: 3px;
+	content: "";
+	display: block;
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+	border: 1.5px solid #05408c;
+	background: #fff;
+}*/
+
+.history .year p strong {
+	font-weight: bold;
+}
+
+.history .year p {
+	font-size: 2rem;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+/*history contents*/
+
+.history .year {
+	margin-left: 17.18%; /*132/768*/
+}
+
+.history .con_2021 {
+	width: 64.32%; /*494/768*/
+	height: 324px;
+	background: url(../img/2021.jpg)no-repeat right 52px/129px 198px;
+}
+
+.history .con_2020 {
+	width: 73.82%; /*567/768*/
+	height: 330px; 
+	background: url(../img/768-2020.jpg)no-repeat right 53px/270px 170px;
+} 
+
+.history .con_2019 { 
+	width: 65.49%%;/*503/768*/
+	height: 363px;
+	background: url(../img/2019.jpg)no-repeat right 45px/146px 251px;
+}
+ 
+.history .con_2018 {
+	width: 69.79%; /*536/768*/
+	height: 324px;
+	background: url(../img/768-2018.jpg)no-repeat right 53px/192px 253px;
+}
+
+.history .con_2017 {
+	width: 68.75%; /*528/768*/
+	height: 379px;
+	background: url(../img/2017.jpg)no-repeat right 25px/196px 325px;
+}
+
+.history .con_2016 {
+	width: 77.34%; /*594/768*/
+	height: 420px;
+	background: url(../img/768-2016.jpg)no-repeat right 44px/357px 270px; 
+}
+
+.history .con_2015 {
+	width: 76.04%; /*584/768*/
+	height: 365px;
+	background: url(../img/2015.jpg)no-repeat right 50px/195px 188px;
+}
+
+.history .con_2014 {
+	width: 75.52%; /*580/768*/
+	height: 308px;
+	background: url(../img/2014.jpg)no-repeat right 53px/283px 160px;
+}
+
+
+.history .con_2013 {
+	width: 72.78%; /*599/768*/
+	height: 355px;
+	background: url(../img/2013.jpg)no-repeat right 45px/225px 211px;
+}
+
+.history .con_2013 p {
+	position: relative;
+	padding-left: 50px;
+}
+
+.history .con_2013 strong {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.history .con_2012 {
+	height: 256px;
+}
+
+.history .con_2011 {
+	width: 69.92%; /*537/768*/
+	height: 263px;
+	background: url(../img/2011logo.jpg)no-repeat right 47px/180px 123px;
+}
+
+.history .con_2011 p {
+	position: relative;
+	padding-left: 50px;
+}
+	
+.history .con_2011 strong {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.history .con_2010 {
+	width: 70.18%; /*539/768*/
+	height: 396px;
+	background: url(../img/2010.jpg)no-repeat right 49px/185px 276px;
+}
+
+.history .con_2009 {
+	width: 75.26%; /*578/768*/
+	height: 420px;
+	background: url(../img/2009.jpg)no-repeat right 44px/297px 294px;
+}
+
+.history .con_2008 {
+	width: 82.81%; /*636/768*/
+	height: 400px;
+	background: url(../img/768-2008.jpg)no-repeat right 53px/387px 226px;
+}
+
+.history .con_2007 {
+	width: 76.43%; /*587/768*/
+	height: 434px;
+	background: url(../img/2007led.jpg)no-repeat right 53px/314px 294px;
+}
+
+.history .con_2006 {
+	width: 63.15%; /*485/768*/
+	height: 325px;
+	background: url(../img/2006icelight.jpg)no-repeat right 51px/111px 203px;
+}
+
+.history .con_2005 {
+	width: 68.22%; /*524/768*/
+	height: 241px;
+	background: url(../img/2005logo.jpg)no-repeat right 43px/188px 126px;
+}
+
+.history .con_2004 {
+	width: 65.36%; /*502/768*/
+	height: 286px; 
+	background: url(../img/2004logo.jpg)no-repeat right 51px/145px 148px;
+}
+
+.history .con_1995_1997 {
+	height: 183px;
+}
+
+.history .con_1994 {
+	width: 78.90%; /*606/768*/
+	height: 300px;
+	background: url(../img/cass-birth.jpg)no-repeat right 53px/358px 246px;
+}
+} /*768-end*/
+
+
+/*1024-start*/
+@media all and (min-width:1024px){
+.brandstory {
+	margin-top: 100px;
+	margin-bottom: 150px;
+	background: url(../img/brandstory_background.jpg)no-repeat center/cover;
+	height: 3153px;
+}
+
+.brandstory:before {
+	display: table;
+	content: "";
+}
+
+.brandstory h2 {
+	margin: 100px 0;
+	color: #fff;
+}
+
+.brandstory .img_center {
+	position: relative;
+	margin: 0 auto;
+	width: 75%%; /*768/1024*/
+	height: 438px;
+	background: url(../img/brandstory_center.jpg)no-repeat center/cover;
+}
+
+.brandstory .brand_box1 {
+	width: 100%;
+	height: 421px;
+	background: #152544;
+	margin-top: -97px;
+	margin-bottom: 250px;
+}
+
+.brandstory p {
+	color:#fff;
+	font-size: 2.5rem;
+	line-height: 1.8;
+}
+
+.brand_box1:before {
+	display: table;
+	content: "";
+}
+
+.brandstory .brand_box1 p {
+	margin-top: 165px;
+	text-align: center;
+}
+
+.brandstory .img_bottle {
+	position: relative;
+	width: 63.86%; /*654/1024*/
+	height: 467px;
+	background: url(../img/brandstory_bottle.jpg)no-repeat center/cover;
+}
+
+.brandstory .brand_box2 {
+	float: none;
+	margin-top: -159px;
+	width: 100%;
+	height: 546px;
+	background: #152544;
+	margin-bottom: 300px;
+}
+
+.brandstory .brand_box2 .story_text {
+	text-align: initial;
+	margin-left: 30.46%; /*312/1024*/
+	
+}
+
+.brandstory .brand_box2 p {
+	display: inline-block;
+	margin-top: 250px;
+	text-align: left;
+}
+
+.brandstory .box_img {
+	position: relative;
+}
+
+.brandstory .img_recycle {
+	position: absolute;
+	top: -53px;
+	right: 2.92%; /*30/1024*/
+	width: 45.89%; /*470/1024*/
+	min-width: 470px;
+	height: 251px;
+	background: url(../img/brandstory_recycle.jpg)no-repeat center/cover;
+}
+
+.brandstory .brand_box3 {
+	width: 100%;
+	height: 410px;
+	background: #152544;
+	text-align: initial;
+}
+
+
+
+.brandstory .brand_box3 .story_text {
+	text-align: initial;
+	margin-left: 5.76% /*59/1024*/
+	
+}
+
+.brandstory .brand_box3 p {
+	display: inline-block;
+	text-align: right;
+	margin: 103px auto 0;
+}
+
+/*history*/
+
+.history {
+	margin-bottom: 200px;
+}
+
+.history h2 {
+	margin-bottom: 100px;
+}
+
+.history .year h3 {
+	display: inline-block;
+	position: relative;
+	font-size: 4rem;
+	color: #05408c;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.history .history_con {
+	position: relative;
+}
+
+.history .history_con:before {
+	position: absolute;
+	left: 50%;
+	top: 16px;
+	content:"";
+	width: 1px;
+	height: calc(100% - 285px);
+	background: #05408c;
+}
+
+/*.history .year h3:before {
+	position: absolute;
+	left: -8.06%;
+	top: 3px;
+	content: "";
+	display: block;
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+	border: 1.5px solid #05408c;
+	background: #fff;
+}*/
+	
+.history .history_txt {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.history .year p strong {
+	font-weight: bold;
+}
+
+.history .year p {
+	font-size: 2rem;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+/*history contents*/
+
+.history .year {
+	margin-left: 0; /*267/1024*/
+}
+
+.history .con_2021 {
+	margin-left: 32.32%; /*331/1024*/
+	width: 46.28%; /*474/1024*/
+	height: 324px;
+	background: url(../img/2021.jpg)no-repeat right 10.12% top 41px/129px 198px;
+}
+
+.history .con_2021 .history_txt {
+	float: right;
+	margin-top: 6px;
+}
+
+.history .con_2020 {
+	margin-left: 13.76%; /*141/1024*/
+	width: 54.58%; /*559/1024*/
+	height: 330px; 
+	background: url(../img/1920-2020.jpg)no-repeat left 63px/304px 190px;
+}
+
+	
+.history .con_2020 h3 {
+	float: right;
+}
+	
+	
+.history .con_2020 .history_txt {
+	margin-left: 21.46%; /*120/559*/
+	margin-top: -8px;
+}
+	
+.history .con_2019 {
+	margin-left: 31.64%; /*324/1024*/
+	width: 41.11%;/*421/1024*/
+	height: 363px;
+	background: url(../img/2019.jpg)no-repeat right 2.375% top 34px/146px 251px;
+}
+	
+.history .con_2019 .history_txt {
+	float: right;
+	margin-top: 6px;
+}
+ 
+.history .con_2018 {
+	margin-left: 9.76%; /*100/1024*/
+	width: 58.59%; /*600/1024*/
+	height: 323px;
+	background: url(../img/1920-2018.jpg)no-repeat left 55px/345px 118px;
+}
+
+.history .con_2018 h3 {
+	float: right;
+}
+
+.history .con_2018 .history_txt {
+	margin-left: 15.83%; /*95/600*/
+	margin-top: -8px;
+}
+
+.history .con_2017 {
+	margin-left: 31.73%; /*325/1024*/
+	width: 44.72%; /*458/1024*/
+	height: 384px;
+	background: url(../img/2017.jpg)no-repeat right 1.09% top 3px/196px 325px;
+}
+
+.history .con_2017 .history_txt {
+	float: right;
+	margin-top: 7px;
+}
+
+.history .con_2016 {
+	margin-left: 9.375%; /*96/1024*/
+	width: 58.98%; /*604/1024*/
+	height: 423px;
+	background: url(../img/1920-2016.jpg)no-repeat left 57px/357px 270px; 
+}
+	
+.history .con_2016 .history_txt {
+	margin-left: 17.21%; /*104/604*/
+	margin-top: -8px;
+}
+
+.history .con_2016 h3 {
+	float: right;
+}
+
+.history .con_2015 {
+	margin-left: 31.64%; /*324/1024*/
+	width: 62.89%; /*644/1024*/
+	height: 365px;
+	background: url(../img/2015.jpg)no-repeat right 15.83% top 56px/236px 228px;
+}
+
+.history .con_2015 .history_txt {
+	float: right;
+	margin-top: -8px;
+}
+
+
+
+.history .con_2014 {
+	margin-left: 12.20%; /*125/1024*/
+	width: 56.44%; /*578/1024*/
+	height: 308px;
+	background: url(../img/2014.jpg)no-repeat left 41px/322px 182px;
+}
+
+.history .con_2014 h3 {
+	float: right;
+}
+	
+.history .con_2014 .history_txt {
+	margin-left: 12.97%; /*75/578*/
+	margin-top: 7px;
+}
+
+
+.history .con_2013 {
+	margin-left: 31.73%; /*325/1024*/
+	width: 56.34%; /*577/1024*/
+	height: 339px;
+	background: url(../img/2013.jpg)no-repeat right 8.31% top 49px/225px 211px;
+}
+
+.history .con_2013 .history_txt {
+	float: right;
+	margin-top: -8px;
+}
+
+.history .con_2013 p {
+	position: relative;
+	padding-left: 50px;
+}
+
+.history .con_2013 strong {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.history .con_2012 {
+	margin-left: 14.45%; /*148/1024*/
+	width: 53.8%;
+	height: 233px;
+}
+
+.history .con_2012 h3 {
+	float: right;
+}
+	
+
+.history .con_2011 {
+	margin-left: 32.32%; /*331/1024*/
+	width: 47.16%; /*483/1024*/
+	height: 253px;
+	background: url(../img/2011logo.jpg)no-repeat right 3.31% top 50px/180px 123px;
+}
+
+.history .con_2011 .history_txt {
+	float: right;
+	margin-top: -7px;
+}
+
+.history .con_2011 p {
+	position: relative;
+	padding-left: 50px;
+}
+	
+.history .con_2011 strong {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.history .con_2010 {
+	margin-left: 25.68%; /*263/1024*/
+	width: 42.67%; /*437/1024*/
+	height: 397px;
+	background: url(../img/2010.jpg)no-repeat left 1.14% top 39px/185px 276px;
+}
+	
+.history .con_2010 h3 {
+	float: right;
+}
+
+.history .con_2010 .history_txt {
+	margin-top: 6px;
+}
+
+.history .con_2009 {
+	margin-left: 31.64%; /*324/1024*/
+	width: 53.9%; /*552/1024*/
+	height: 399px;
+	background: url(../img/2009.jpg)no-repeat right 41px/297px 294px;
+}
+	
+.history .con_2009 .history_txt {
+	float: right;
+	margin-right: 22.82%; /*126/552*/
+	margin-top: 7px;
+}
+
+.history .con_2008 {
+	margin-left: 4.19%; /*43/1024*/
+	width: 64.16%; /*657/1024*/
+	height: 344px;
+	background: url(../img/768-2008.jpg)no-repeat left 54px/402px 217px;
+}
+	
+.history .con_2008 h3 {
+	float: right;
+}
+
+.history .con_2008 .history_txt {
+	margin-left: 31.05%; /*204/657*/
+	margin-top: -7px;
+}
+
+.history .con_2007 {
+	margin-left: 31.73%; /*325/1024*/
+	width: 54.10%; /*554/1024*/
+	height: 424px;
+	background: url(../img/2007led.jpg)no-repeat right 53px/300px 281px;
+} 
+
+.history .con_2007 .history_txt {
+	float: right;
+	margin-right: 19.63%; /*204/657*/
+	margin-top: 7px;
+}
+
+.history .con_2006 {
+	margin-left: 22.75%; /*233/1024*/
+	width: 45.60%; /*467/1024*/
+	height: 326px;
+	background: url(../img/2006icelight.jpg)no-repeat left 10.92% top 39px/111px 203px;
+}
+
+.history .con_2006 h3 {
+	float: right;
+}
+
+.history .con_2006 .history_txt {
+	margin-top: 6px;
+}
+
+.history .con_2005 {
+	margin-left: 31.64%; /*324/1024*/
+	width: 46.87%; /*480/1024*/ 
+	height: 239px;
+	background: url(../img/2005logo.jpg)no-repeat right 3.75% top 32px/188px 126px;
+}
+
+.history .con_2005 .history_txt {
+	float: right;  
+	margin-top: 7px;
+}
+
+
+.history .con_2004 {
+	margin-left: 26.66%; /*273/1024*/
+	width: 41.79%; /*428/1024*/
+	height: 287px; 
+	background: url(../img/2004logo.jpg)no-repeat left 56px/145px 148px;
+}
+
+.history .con_2004 .history_txt {
+	margin-top: -7px;
+}	
+
+.history .con_2004 h3 {
+	float: right;  
+}
+
+.history .con_1995_1997 {
+	margin-left: 20.6%; /*211/1024*/
+	width: 67.96%; /*696/1024*/
+	height: 233px;
+}
+
+.history .con_1995_1997 .history_txt {
+	float: right;
+	margin-top: 7px;
+}
+
+.history .con_1994 {
+	margin-left: 8.4%;
+	width: 59.76%; /*612/1024*/
+	height: 287px;
+	background: url(../img/cass-birth.jpg)no-repeat left 41px/358px 246px;
+}
+
+.history .con_1994 h3 {
+	float: right;
+}
+	
+.history .con_1994 .history_txt {
+	margin-left: 36.92%; /*226/1024*/
+	margin-top: 7px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+

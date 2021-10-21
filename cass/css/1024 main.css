@@ -1,0 +1,1577 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: "nbg";
+	src: url(font/NanumBarunGothic.woff);
+}
+
+body {
+	font-family: "nbg", "돋움", dotum, sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	z-index: 101;
+}
+
+button {
+	position: absolute;
+	top: 13px;
+	left: 15px;
+	width: 31px;
+	height: 25px;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+button>span {
+	display: block;
+	width: 31px;
+	height: 6px;
+	background: #9e9e9e;
+	border-radius: 3px;
+	margin-bottom: 3px;
+	transition: 0.3s;
+}
+
+button.on span {
+	position: absolute;
+}
+
+button.on span:nth-child(2) {
+	background-color: transparent;
+}
+
+button.on span:nth-child(1),button.on span:nth-child(3) {
+	top: 11px;
+}
+
+button.on span:nth-child(1) {
+	transform: rotate(45deg);
+}
+
+button.on span:nth-child(3) {
+	transform: rotate(-45deg);
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.85);
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	display: none;
+}
+
+nav ul{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 100;
+	text-align: center;
+	margin-top: 50px;
+}
+
+nav ul li {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #154092;
+	margin-bottom: 80px;
+	white-space: nowrap;
+}
+
+
+header h1 {
+	width: 61px;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+
+header h1 img {
+	width: 61px;
+	height: 36px;
+}
+
+
+video {
+	width: 100%;
+	height: auto;
+	margin: 50px 0 125px 0;
+}
+
+main {
+	margin: 0 auto;
+}
+
+main h2 {
+	font-size: 4rem;
+	text-align: center;
+}
+
+.BRAND {
+	margin: 0 0 15px 0;
+}
+
+/* brand */
+.brand_deco {
+	width: 71.5px;
+	height: 3.5px;
+	background-color: #285ca1;
+	margin: 0 auto 70px;
+}
+
+.brand {
+	width: 82.9%; /*310/375*/
+	height: 358px;
+	border: 7px solid #2fa8dc;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+.brand_image {
+	width: 82.9%; /*257/310*/
+	height: 172px;
+	margin: 0 auto 20px;
+}
+
+.brandwrap {
+	position: relative;
+}
+
+
+
+.frame1 .brand_image {
+	background: url(../img/Light-Fresh-0.0.jpg) no-repeat center/cover;
+}
+
+.frame1 {
+	position: relative;
+	margin-bottom: 75px;
+}
+
+.back_logo {
+	position: absolute;
+	top: 62px;
+	right: 0px;
+	width: 152px;
+	height: 82px;
+	background: url(../img/cass-background-logo.png)no-repeat center/cover;
+}
+
+.back_logo2 {
+	position: absolute;
+	top: 909px;
+	left: 0px;
+	width: 152px;
+	height: 82px;
+	background: url(../img/cass-background-logo2.png)no-repeat center/cover;
+}
+
+.frame1 .framelogo1 {
+	position: absolute;
+	top: -22.9px;
+	right: 20px;
+	width: 75px;
+	height: 39px;
+	background: url(../img/cass-deco.png)no-repeat center/cover;
+}
+
+.frame2 {
+	position: relative;
+	border-color: #05408c;
+	margin-bottom: 125px;
+}
+
+.frame2 .framelogo2 {
+	position: absolute;
+	top: -28px;
+	left: 20px;
+	width: 75px;
+	height: 39px;
+	background: url(../img/cass-deco2.png)no-repeat center/cover;
+}
+
+.frame2 .brand_image {
+	background: url(../img/cass-bottle.jpg) no-repeat center/cover;	
+}
+
+.brand h3 {
+	font-size: 1.7rem;
+	margin-bottom: 15px;
+}
+
+.brand_text {
+	width: 84.51%; /*262/310*/
+	height: 107px;
+	margin: 0 auto;
+}
+
+.brand_text p {
+	font-size: 1.2rem;
+	line-height: 1.33;
+}
+
+/*fresh*/
+
+.FreshTaste {
+	width: 100%;
+	height: 517px;
+	background: url(../img/FreshTaste-background.jpg)no-repeat center/100% 517px;
+	overflow: auto;
+	margin-bottom: 125px;
+	color: #fff;
+}
+
+.FreshTaste h2 {
+	color: #fff;
+	margin: 25px 0 15px 8.53%; /*32/375*/
+	text-align: initial;
+}
+
+.FreshTaste .Taste_deco {
+	margin-left: 8.53%; /*32/375*/
+	width: 71.5px;
+	height: 3.5px;
+	background-color: #efefef;
+	opacity: 0.5;
+	margin-bottom: 28px;
+}
+
+.fresh_box {
+	width: 82.66%; /*310/375*/
+	height: 374px;
+	margin: 0 auto;
+}
+
+.fresh_box h3 {
+	font-size: 1.5rem;
+	margin-top: 22px;
+}
+
+
+.tastebox1 {
+	width: 100%;
+	height: 176px;
+	margin-bottom: 22px;
+	text-align: center;
+}
+
+
+
+.tastebox1>div {
+	width: 49%;
+	display: inline-block;
+}
+
+.tastebox1>div div{
+	width: 140px;
+	height: 140px;
+	background: #fff;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+
+
+.tastebox2 {
+	width: 100%; /*310/375*/
+	height: 176px;
+	text-align: center;
+}
+
+.tastebox2>div div{
+	width: 140px;
+	height: 140px;
+	background: #fff;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+
+.tastebox2>div {
+	width: 49%;
+	display: inline-block;
+}
+
+
+.pc_show {
+	display: none;
+}
+
+/* product */
+.product {
+	color: #fff;
+	text-align: center;
+}
+
+.product h3 {
+	font-size: 2.75rem;
+}
+
+.product .br750 {
+	display: block;
+}
+
+.product p {
+	font-size: 1.4rem;
+	line-height: 1.357;
+	margin-bottom: 20px;
+}
+
+.PRODUCT {
+	margin-bottom: 15px;
+	color: #000;
+}
+
+.product_deco {
+	width: 71.5px;
+	height: 3.5px;
+	background-color: #285ca1;
+	margin: 0 auto 143px;
+}
+
+.zero {
+	position: relative;
+	width: 100%;
+	height: 403px;
+	background: url(../img/0.0-background.jpg)no-repeat center/cover;
+	margin-bottom: 118px;
+}
+
+.casszero {
+	position: absolute;
+	top:-70px;
+	left:50%;
+	transform: translateX(-50%);
+	width: 138px;
+	height: 261px;
+	background: url(../img/750-0.0.png)no-repeat center/cover;
+}
+
+.zero h3 {
+	margin-top: 208px;
+	margin-bottom: 15px;
+}
+
+/*margin-collapsing 이라는 현상땜에 넣어줌*/
+.zero:before {
+	display: table;
+	content: "";
+}
+
+.btn_product {
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	background: rgba(255,255,255,0.6);
+	color: #000;
+	border: 0.5px solid #000;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.btn_product a{
+	display: block;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+
+.fresh {
+	position: relative;
+	width: 100%;
+	height: 403px;
+	background: url(../img/Fresh-background.jpg)no-repeat center/cover;
+	margin-bottom: 118px;
+}
+
+.fresh:before {
+	display: table;
+	content: "";
+}
+
+.fresh h3 {
+	margin-top: 210px;
+	margin-bottom: 15px;
+}
+
+.light:before {
+	display: table;
+	content: "";
+}
+
+.light h3 {
+	margin-top: 209px;
+	margin-bottom: 15px;
+}
+
+
+.cassfresh {
+	position: absolute;
+	top:-70px;
+	left:50%;
+	transform: translateX(-50%);
+	width: 138px;
+	height: 261px;
+	background: url(../img/750-Fresh.png)no-repeat center/137px 260px;
+}
+
+.light {
+	position: relative;
+	width: 100%;
+	height: 403px;
+	background: url(../img/Light-background.jpg)no-repeat center/cover;
+	margin-bottom: 125px;
+}
+
+.casslight {
+	position: absolute;
+	top:-70px;
+	left:50%;
+	transform: translateX(-50%);
+	width: 138px;
+	height: 261px;
+	background: url(../img/750-Light.png)no-repeat center/135px 259px;
+}
+
+
+
+/*sns*/
+
+.sns h2 {
+	margin-bottom: 15px;
+}
+
+
+.sns_deco {
+	width: 71.5px;
+	height: 3.5px;
+	background-color: #285ca1;
+	margin: 0 auto 49px;
+}
+
+
+
+.sns_box {
+	width: 82.6%; /*310/375*/
+	height: 310px;
+	margin: 0 auto 90px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.sns_box>div {
+	width: 155px;
+	height: 310px;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+
+.sns_box img {
+	width: 155px;
+	height: 155px;
+}
+
+footer {
+	background: #efefef url(../img/cass-footer-logo.png)no-repeat 50% 20px/66px 43px;
+	width: 100%;
+	height: 178px;
+	text-align: center;
+	font-size: 0.9rem;
+	line-height: 1.33;
+	font-weight: bold;
+	overflow: auto;
+	
+}
+
+footer p {
+	margin-top: 80px;
+	padding: 0 50px 0 51px;
+}
+
+/*768-start*/
+@media all and (min-width:768px) {
+	header {
+	height: 100px;
+ }
+
+button {
+	top: 25px;
+	left: 40px;
+	width: 62px;
+	height: 50px;
+}
+
+button>span {
+	width: 61px;
+	height: 12px;
+	border-radius: 6px;
+	margin-bottom: 7px;
+}
+
+button.on span {
+}
+
+button.on span:nth-child(2) {
+}
+
+button.on span:nth-child(1),button.on span:nth-child(3) {
+	top: 22px;
+}
+
+button.on span:nth-child(1) {
+}
+
+button.on span:nth-child(3) {
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.85);
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	display: none;
+}
+
+nav ul{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 100;
+	text-align: center;
+	margin-top: 50px;
+}
+
+nav ul li {
+	font-size: 5rem;
+	font-weight: bold;
+	margin-bottom: 73px;
+	white-space: nowrap;
+}
+	
+nav ul li a:hover {
+	color: #051052;
+}
+
+
+header h1 {
+	width: 121px;
+	margin-top: 14px;
+}
+
+header h1 img {
+	width: 121px;
+	height: 72px;
+}
+
+
+video {
+	width: 100%;
+	height: auto;
+	margin: 50px 0 250px 0;
+}
+
+main {
+	margin: 0 auto;
+}
+
+main h2 {
+	font-size: 8rem;
+	text-align: center;
+}
+
+.BRAND {
+	margin: 0 0 30px 0;
+}
+
+/* brand */
+.brand_deco {
+	width: 143px;
+	height: 7px;
+	margin: 0 auto 140px;
+}
+
+.brand {
+	width: 80.72%; /*620/768*/
+	height: 605px;
+	border: 14px solid #2fa8dc;
+	padding: 40px;
+}
+
+.brand_image {
+	width: 66.66%; /*512/768*/
+	height: 289px;
+	margin: 0 auto 30px;
+}
+
+.brandwrap {
+	position: relative;
+}
+
+.frame1 .brand_image {
+	background: url(../img/Light-Fresh-0.0.jpg) no-repeat center/cover;
+}
+
+.frame1 {
+	position: relative;
+	margin-bottom: 150px;
+}
+
+.back_logo {
+	position: absolute;
+	top: 120px;
+	right: 0px;
+	width: 302px;
+	height: 162px;
+	background: url(../img/cass-background-logo.png)no-repeat center/cover;
+}
+
+.back_logo2 {
+	position: absolute;
+	top: 1594px;
+	left: 0px;
+	width: 302px;
+	height: 162px;
+	background: url(../img/cass-background-logo2.png)no-repeat center/cover;
+}
+
+.frame1 .framelogo1 {
+	position: absolute;
+	top: -46px;
+	right: 40px;
+	width: 150px;
+	height: 78px;
+	background: url(../img/cass-deco.png)no-repeat center/cover;
+}
+
+.frame2 {
+	position: relative;
+	border-color: #05408c;
+	margin-bottom: 250px;
+}
+
+.frame2 .framelogo2 {
+	position: absolute;
+	top: -56px;
+	left: 40px;
+	width: 150px;
+	height: 78px;
+	background: url(../img/cass-deco2.png)no-repeat center/cover;
+}
+
+.frame2 .brand_image {
+	background: url(../img/cass-bottle.jpg) no-repeat center/cover;	
+}
+
+.brand h3 {
+	font-size: 2.9rem;
+	margin-bottom: 30px;
+}
+
+.brand_text {
+	width: 80.66%; /*413/512*/
+	height: 178px;
+	margin: 0 auto;
+}
+
+.brand_text p {
+	font-size: 1.9rem;
+	line-height: 1.333;
+}
+
+/*fresh*/
+
+.FreshTaste {
+	width: 100%;
+	height: 785px;
+	background: url(../img/FreshTaste-background.jpg)no-repeat center/100% 785px;
+	overflow: auto;
+	margin-bottom: 250px;
+	color: #fff;
+}
+
+.FreshTaste h2 {
+	margin: 50px 0 30px 9.63%; /*74/768*/
+	text-align: initial;
+}
+
+.FreshTaste .Taste_deco {
+	margin-left: 9.63%; /*74/768*/
+	width: 143px;
+	height: 7px;
+	background-color: #efefef;
+	opacity: 0.5;
+	margin-bottom: 28px;
+}
+
+.fresh_box {
+	width: 70.83%; /*544/768*/
+	height: 504px;
+	margin: 0 auto;
+}
+
+.fresh_box h3 {
+	font-size: 2rem;
+	margin-top: 30px;
+}
+
+
+.tastebox1 {
+	width: 100%;
+	height: 265px;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.tastebox1>div {
+	width: 49%;
+	display: inline-block;
+}
+
+.tastebox1>div div{
+	width: 215px;
+	height: 215px;
+	background: #fff;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+
+.tastebox2 {
+	width: 100%; /*310/375*/
+	height: 265px;
+	text-align: center;
+}
+
+.tastebox2>div div{
+	width: 215px;
+	height: 215px;
+	background: #fff;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+
+.tastebox2>div {
+	width: 49%;
+	display: inline-block;
+}
+
+.pc_show {
+	display: none;
+}
+
+/* product */
+.product {
+	color: #fff;
+	text-align: center;
+}
+	
+.product h3 {
+	font-size: 5rem;
+}
+	
+.product .br750 {
+	display: block;
+}
+
+.product p {
+	font-size: 2.3rem;
+	line-height: 1.333;
+	margin-bottom: 30px;
+}
+
+.PRODUCT {
+	margin-bottom: 30px;
+	color: #000;
+}
+
+.product_deco {
+	width: 143px;
+	height: 7px;
+	background-color: #285ca1;
+	margin: 0 auto 340px;
+}
+
+.zero {
+	position: relative;
+	width: 100%;
+	height: 513px;
+	background: url(../img/0.0-background.jpg)no-repeat center/cover;
+	margin-bottom: 290px;
+}
+
+.casszero {
+	position: absolute;
+	top:-190px;
+	left:50%;
+	transform: translateX(-50%);
+	width: 200px;
+	height: 380px;
+	background: url(../img/750-0.0.png)no-repeat center/cover;
+}
+
+.zero h3 {
+	margin-top: 220px;
+	margin-bottom: 20px;
+}
+
+/*margin-collapsing 이라는 현상땜에 넣어줌*/
+.zero:before {
+	display: table;
+	content: "";
+}
+
+.btn_product {
+	width: 177px;
+	height: 44px;
+	line-height: 44px;
+	background: rgba(255,255,255,0.6);
+	color: #000;
+	border: 1px solid #000;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.btn_product a{
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+	
+.btn_product a:hover {
+	background: #fff;
+}
+
+
+
+.fresh {
+	position: relative;
+	width: 100%;
+	height: 513px;
+	background: url(../img/Fresh-background.jpg)no-repeat center/cover;
+	margin-bottom: 290px;
+}
+
+.fresh:before {
+	display: table;
+	content: "";
+}
+
+.fresh h3 {
+	margin-top: 215px;
+	margin-bottom: 15px;
+}
+
+.light:before {
+	display: table;
+	content: "";
+}
+
+.light h3 {
+	margin-top: 209px;
+	margin-bottom: 20px;
+}
+
+
+.cassfresh {
+	position: absolute;
+	top:-190px;
+	left:50%;
+	transform: translateX(-50%);
+	width: 200px;
+	height: 380px;
+	background: url(../img/750-Fresh.png)no-repeat center/cover;
+}
+
+.light {
+	position: relative;
+	width: 100%;
+	height: 513px;
+	background: url(../img/Light-background.jpg)no-repeat center/cover;
+	margin-bottom: 250px;
+}
+
+.casslight {
+	position: absolute;
+	top:-190px;
+	left:50%;
+	transform: translateX(-50%);
+	width: 200px;
+	height: 380px;
+	background: url(../img/750-Light.png)no-repeat center/cover;
+}
+
+
+
+/*sns*/
+
+.sns h2 {
+	margin-bottom: 30px;
+}
+
+
+.sns_deco {
+	width: 143px;
+	height: 7px;
+	background-color: #285ca1;
+	margin: 0 auto 100px;
+}
+
+
+
+.sns_box {
+	width: 88.54%; /*680/768*/
+	height: 452px;
+	margin: 0 auto 200px;
+	text-align: center; 
+	overflow: hidden;
+}
+
+.sns_box>div {
+	position: relative;
+	width: 226px;
+	height: 452px;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+
+.sns_box img {
+	width: 226px;
+	height: 226px;
+}
+
+footer {
+	background: #efefef url(../img/cass-footer-logo.png)no-repeat 50% 40px/132px 86px;
+	width: 100%;
+	height: 323px;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 1.33;
+	font-weight: bold;
+	overflow: auto;
+}
+
+footer p {
+	margin-top: 160px;
+	padding: 0 133px 0 134px;
+	
+}
+
+} /*768-end*/
+
+
+
+/*1024-start*/
+
+@media all and (min-width:1024px){
+	header {
+	height: 100px;
+ }
+
+button {
+	top: 25px;
+	left: 60px;
+	width: 62px;
+	height: 50px;
+}
+
+button>span {
+	width: 61px;
+	height: 12px;
+	border-radius: 6px;
+	margin-bottom: 7px;
+}
+
+button.on span {
+}
+
+button.on span:nth-child(2) {
+}
+
+button.on span:nth-child(1),button.on span:nth-child(3) {
+	top: 22px;
+}
+
+button.on span:nth-child(1) {
+}
+
+button.on span:nth-child(3) {
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.85);
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	display: none;
+}
+
+nav ul{
+	position: fixed;
+	top: 50%;
+	left: 0%;
+	transform: translateY(-50%);
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	margin-top: 50px;
+}
+	
+nav ul li:nth-child(1) {
+	margin-left: 60px;
+} 
+	
+
+nav ul li {
+	display: inline-block;
+	font-size: 5rem;
+	font-weight: bold;
+	margin-right: 120px;
+	margin-bottom: 73px;
+	white-space: nowrap;
+}
+	
+nav ul li a:hover {
+	color: #051052;
+}
+
+
+header h1 {
+	width: 121px;
+	margin-top: 14px;
+}
+
+header h1 img {
+	width: 121px;
+	height: 72px;
+}
+
+
+video {
+	width: 100%;
+	height: auto;
+	margin: 50px 0 300px 0;
+}
+
+main {
+	margin: 0 auto;
+}
+
+main h2 {
+	font-size: 8rem;
+	text-align: center;
+}
+
+.BRAND {
+	margin: 0 0 30px 0;
+}
+
+/* brand */
+.brand_deco {
+	width: 143px;
+	height: 7px;
+	margin: 0 auto 150px;
+}
+
+.brand {
+	width: 81.83%; /*838/1024*/
+	height: 560px;
+	border: 14px solid #2fa8dc;
+	text-align: initial;
+	padding: 0px;
+}
+
+.brand_image {
+	float:left;
+	width: 50%;
+	height: 533px;
+	margin: 0;
+}
+
+
+.brandwrap {
+	position: relative;
+}
+
+.frame1 .brand_image {
+	background: url(../img/Light-Fresh-0.0.jpg) no-repeat center/cover;
+}
+
+.frame1 {
+	position: relative;
+	margin-bottom: 150px;
+}
+
+.back_logo {
+	position: absolute;
+	top: 127px;
+	right: 0px;
+	width: 405px;
+	height: 217px;
+	background: url(../img/cass-background-logo.png)no-repeat center/cover;
+}
+
+.back_logo2 {
+	position: absolute;
+	top: 1485px;
+	left: 0px;
+	width: 405px;
+	height: 217px;
+	background: url(../img/cass-background-logo2.png)no-repeat center/cover;
+}
+
+.frame1 .framelogo1 {
+	position: absolute;
+	top: -46px;
+	right: 40px;
+	width: 150px;
+	height: 78px;
+	background: url(../img/cass-deco.png)no-repeat center/cover;
+}
+
+.frame2 {
+	position: relative;
+	border-color: #05408c;
+	margin-bottom: 300px;
+}
+
+.frame2 .framelogo2 {
+	position: absolute;
+	top: -56px;
+	left: 40px;
+	width: 150px;
+	height: 78px;
+	background: url(../img/cass-deco2.png)no-repeat center/cover;
+}
+
+.frame2 .brand_image {
+	float: right;
+	background: url(../img/cass-bottle.jpg) no-repeat center/cover;	
+}
+	
+.frame2 .brand_text {
+	float: left;
+}
+
+.brand h3 {
+	font-size: 2.9rem;
+	margin-bottom: 30px;
+}
+
+.brand_text {
+	float: left;
+	width: 50%;
+	height: 533px;
+}
+	
+
+.brand_text h3 {
+	margin-top: 126px;
+	margin-left: 9.54%;
+}
+	
+.frame2 h3{
+	margin-top: 140px;
+}
+	
+	
+.brand_text p {
+	font-size: 1.9rem;
+	line-height: 1.333;
+	margin-left: 9.54%;
+}
+	
+.brand_text p span {
+	display: block;
+}
+
+.brand_text p .brr {
+	margin-bottom: 33px;
+}
+	
+
+
+
+/*fresh*/
+
+.FreshTaste {
+	width: 100%;
+	height: 700px;
+	background: url(../img/FreshTaste-background.jpg)no-repeat center/cover;
+	overflow: auto;
+	margin-bottom: 300px;
+	color: #fff;
+}
+
+.FreshTaste h2 {
+	margin: 70px 0 30px 9.08%; /*74/768*/
+	text-align: initial;
+}
+
+.FreshTaste .Taste_deco {
+	margin-left: 9.08%; /*74/768*/
+	width: 143px;
+	height: 7px;
+	background-color: #efefef;
+	opacity: 0.5;
+	margin-bottom: 84px;
+}
+
+.fresh_box {
+	width: 83.30%; /*853/1024*/
+	height: 292px;
+	margin: 0 auto;
+}
+
+.fresh_box h3 {
+	font-size: 2rem;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.fresh_box .pc_show {
+	display: block;
+	font-size: 1.6rem;
+	line-height: 1.333;
+}
+
+
+.tastebox1 {
+	display: inline-block;
+	width: 50%;
+	height: 292px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.tastebox1>div {
+	width: 49%;
+	display: inline-block;
+}
+
+.tastebox1>div div{
+	width: 185px;
+	height: 185px;
+	background: #fff;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+
+.tastebox2 {
+	float:right;
+	width: 50%; /*310/375*/
+	height: 292px;
+	text-align: center;
+}
+
+.tastebox2>div div{
+	width: 185px;
+	height: 185px;
+	background: #fff;
+	border-radius: 50%;
+	display: inline-block;
+}
+	
+
+.tastebox2>div {
+	width: 49%;
+	display: inline-block;
+}
+
+/* product */
+.product {
+	color: #fff;
+	text-align: initial;
+}
+	
+.product h3 {
+	font-size: 5rem;
+}
+
+.product p {
+	font-size: 2.3rem;
+	line-height: 1.333;
+	margin-bottom: 40px;
+}
+	
+.product .br750 {
+	display: inline;
+}
+	
+.product p .br1024 {
+	display: block;
+}
+
+.PRODUCT {
+	font-size: 8rem;
+	text-align: initial;
+	margin-left: 8.30%; /* 85/1024 h2에 margin 8px정도가 있어서 (93-8)해줌 */
+	margin-bottom: 30px;
+	color: #000;
+}
+
+.product_deco {
+	width: 143px;
+	height: 7px;
+	background-color: #285ca1;
+	margin: 0 0 150px 9.08%;
+}
+
+.zero {
+	position: relative;
+	width: 100%;
+	height: 470px;
+	background: url(../img/0.0-background.jpg)no-repeat center/cover;
+	margin-bottom: 200px;
+}
+
+.casszero {
+	position: absolute;
+	top: -94px;
+	left: auto;
+	right: 5.95%;
+	/*left: 52.73%;*/ /*540/1024*/
+	transform: none;
+	width: 429px;
+	height: 516px;
+	background: url(../img/1920-0.0.png)no-repeat center/cover;
+}
+
+.zero h3 {
+	margin-top: 100px;
+	margin-bottom: 35px;
+}
+
+.zero .product_box {
+	margin-left: 12.20%; /*125/1024*/
+	width: 369px;
+	height: 273px;
+	text-align: right;
+}
+
+.zero .product_box .btn_product {
+	margin-left: 192px;
+}
+
+
+/*margin-collapsing 이라는 현상땜에 넣어줌*/
+.zero:before {
+	display: table;
+	content: "";
+}
+
+.btn_product {
+	width: 177px;
+	height: 44px;
+	line-height: 44px;
+	background: rgba(255,255,255,0.6);
+	color: #000;
+	border: 1px solid #000;
+	text-align: center;
+	margin: 0 0 0 495px;
+}
+
+.btn_product a{
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+	
+.btn_product a:hover {
+	background: #fff;
+}
+
+
+
+.fresh {
+	position: relative;
+	width: 100%;
+	height: 470px;
+	background: url(../img/Fresh-background.jpg)no-repeat center/cover;
+	margin-bottom: 200px;
+}
+
+.fresh:before {
+	display: table;
+	content: "";
+}
+	
+.fresh .product_box {
+	width: 370px;
+	height: 276px;
+	margin-left: 51.66%;
+}
+
+	
+.fresh .product_box .btn_product {
+	margin: 0;
+}
+
+.fresh h3 {
+	margin-top: 100px;
+	margin-bottom: 35px;
+}
+
+.light:before {
+	display: table;
+	content: "";
+}
+
+.light h3 {
+	margin-top: 100px;
+	margin-bottom: 35px;
+}
+
+
+.cassfresh {
+	position: absolute;
+	top: -53px;
+	left: 17.08%;
+	transform: none;
+	width: 244px;
+	height: 466px;
+	background: url(../img/1920-Fresh.png)no-repeat center/cover;
+}
+
+.light {
+	position: relative;
+	width: 100%;
+	height: 470px;
+	background: url(../img/Light-background.jpg)no-repeat center/cover;
+	margin-bottom: 300px;
+}
+
+
+.light .product_box {
+	width: 331px;
+	height: 290px;
+	margin-left: 16.6%; /*170/1024*/
+	text-align: right;
+}
+
+.light .product_box .btn_product {
+	margin-left: 147px;
+}
+
+.casslight {
+	position: absolute;
+	top: -89px;
+	left: 56.44%;
+	/*right: 7.51%;*/ /*77/1024*/
+	transform: none;
+	width: 370px;
+	height: 490px;
+	background: url(../img/1920-Light.png)no-repeat center/cover;
+}
+
+
+
+/*sns*/
+
+.sns h2 {
+	margin-bottom: 30px;
+}
+
+
+.sns_deco {
+	width: 143px;
+	height: 7px;
+	background-color: #285ca1;
+	margin: 0 auto 100px;
+}
+
+
+
+.sns_box {
+	width: 88.47%; /*906/1024*/
+	height: 452px;
+	margin: 0 auto 200px;
+	text-align: center; 
+	overflow: hidden;
+}
+
+.sns_box>div {
+	position: relative;
+	width: 226px;
+	height: 452px;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+
+.sns_box img {
+	width: 226px;
+	height: 226px;
+}
+
+footer {
+	background: #efefef url(../img/cass-footer-logo.png)no-repeat 50% 40px/132px 86px;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 1.33;
+	font-weight: bold;
+	overflow: auto;
+}
+
+footer p {
+	margin-top: 160px;
+	padding: 0 61px 0 61px;
+	
+}
+} /*1024-end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
