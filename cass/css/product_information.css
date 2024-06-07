@@ -1,0 +1,441 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "nbg";
+  src: url(font/NanumBarunGothic.woff);
+}
+
+body {
+  font-family: "nbg", "돋움", dotum, sans-serif;
+}
+
+.wrap {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25px; */
+  /* justify-content: flex-start; */
+
+  background-image: url(../../cass/img/product-background.jpg);
+  padding: 200px 0;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.product-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cassfresh {
+  max-width: 768px;
+  padding: 650px 15px 85px;
+  background: url(../img/product-bg02-cassFresh-mo.png) no-repeat;
+  background-position: center 0;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.product-name {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.text-box {
+  text-align: center;
+}
+
+.text-box p span {
+  position: relative;
+  padding-left: 8px;
+}
+
+.text-box p span:before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: calc(50% - 2px);
+}
+
+.text-box p {
+  font-size: 1.4rem;
+  color: white;
+  width: auto;
+  word-break: keep-all;
+  line-height: 1.333;
+}
+
+.text-box img {
+  margin-top: 40px;
+}
+
+.product-wrap .casslight {
+  max-width: 768px;
+  background: url(../img/product-bg-cassLightZERO-mo.png) no-repeat center 0;
+  padding: 520px 15px 70px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.product-wrap .casszero {
+  max-width: 768px;
+  background: url(../img/product-bg03-mo.png) no-repeat center 0;
+  text-align: center;
+  padding: 520px 15px 30px;
+}
+
+.product-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 30px;
+  box-shadow: 6px 6px 6.72px 0.28px rgba(0, 0, 0, 0.14);
+  background-color: white;
+  cursor: pointer;
+  margin: 30px auto 0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.casszero .product-btn {
+  margin-bottom: 30px;
+}
+
+.text-box .test {
+  margin-bottom: 15px;
+}
+
+@media all and (min-width: 768px) {
+  h1 {
+    font-size: 6rem;
+    color: white;
+  }
+
+  .product-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cassfresh {
+    width: 100%;
+    padding: 100px 0 130px 40px;
+    background: url(../img/product-bg02-cassFresh-768.png) no-repeat;
+    background-position: right 0;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+  }
+
+  .product-name {
+    text-align: left;
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 40px;
+  }
+
+  .text-box {
+    text-align: left;
+    width: 334px;
+    word-break: keep-all;
+  }
+
+  .text-box p span {
+    position: relative;
+    padding-left: 8px;
+  }
+
+  .text-box p span:before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 2px);
+  }
+
+  .text-box p {
+    font-size: 1.5rem;
+    color: white;
+    width: auto;
+    word-break: keep-all;
+    line-height: 1.333;
+  }
+
+  .text-box img {
+    margin-top: 40px;
+  }
+
+  .product-wrap .casslight {
+    width: 100%;
+    background: url(../img/product-bg-cassLightZERO-768.png) no-repeat center 0;
+    padding: 100px 0 205px 40px;
+    text-align: center;
+    margin-bottom: 140px;
+    box-sizing: border-box;
+  }
+
+  .product-wrap .casszero {
+    width: 100%;
+    background: url(../img/product-bg03-768.png) no-repeat right 0;
+    padding: 100px 0 20px 40px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  .product-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    cursor: pointer;
+    margin: 30px 0 0 0;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    box-shadow: 6px 6px 6.72px 0.28px rgba(0, 0, 0, 0.14);
+  }
+
+  .text-box .test {
+    margin-bottom: 15px;
+  }
+
+  .casszero .text-box p:last-child {
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  h1 {
+    font-size: 6rem;
+    color: white;
+  }
+
+  .product-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cassfresh {
+    width: 100%;
+    max-width: 1000px;
+    padding: 140px 0 135px 90px;
+    background: url(../img/product-bg02-cassFresh-1000.png) no-repeat;
+    background-position: right 0;
+    margin-bottom: 105px;
+    box-sizing: border-box;
+  }
+
+  .product-name {
+    text-align: left;
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 40px;
+  }
+
+  .text-box {
+    text-align: left;
+    width: 334px;
+    word-break: keep-all;
+  }
+
+  .text-box p span {
+    position: relative;
+    padding-left: 8px;
+  }
+
+  .text-box p span:before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 2px);
+  }
+
+  .text-box p {
+    font-size: 1.6rem;
+    color: white;
+    width: auto;
+    word-break: keep-all;
+    line-height: 1.333;
+  }
+
+  .text-box img {
+    margin-top: 40px;
+  }
+
+  .product-wrap .casslight {
+    width: 100%;
+    max-width: 1000px;
+    background: url(../img/product-bg-cassLightZERO-1000.png) no-repeat center 0;
+    padding: 140px 0 210px 90px;
+    text-align: center;
+    margin-bottom: 160px;
+    box-sizing: border-box;
+  }
+
+  .product-wrap .casszero {
+    width: 100%;
+    max-width: 1000px;
+    background: url(../img/product-bg03-1000.png) no-repeat right 0;
+    padding: 140px 0 50px 90px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  .product-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    cursor: pointer;
+    margin: 30px 0 0 0;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    box-shadow: 6px 6px 6.72px 0.28px rgba(0, 0, 0, 0.14);
+  }
+
+  .text-box .test {
+    margin-bottom: 15px;
+  }
+
+  .casszero .text-box p:last-child {
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (min-width: 1300px) {
+  h1 {
+    font-size: 6rem;
+    color: white;
+  }
+
+  .product-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cassfresh {
+    width: 100%;
+    max-width: 1480px;
+    padding: 150px 0 125px 128px;
+    background: url(../img/product-bg02-cassFresh-pc.png) no-repeat;
+    background-position: right 0;
+    margin-bottom: 105px;
+    box-sizing: border-box;
+  }
+
+  .product-name {
+    text-align: left;
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 40px;
+  }
+
+  .text-box {
+    text-align: left;
+    width: 334px;
+    word-break: keep-all;
+  }
+
+  .text-box p span {
+    position: relative;
+    padding-left: 8px;
+  }
+
+  .text-box p span:before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 2px);
+  }
+
+  .text-box p {
+    font-size: 1.6rem;
+    color: white;
+    width: auto;
+    word-break: keep-all;
+    line-height: 1.333;
+  }
+
+  .text-box img {
+    margin-top: 40px;
+  }
+
+  .product-wrap .casslight {
+    width: 100%;
+    max-width: 1480px;
+    background: url(../img/product-bg-cassLightZERO-pc.png) no-repeat center 0;
+    padding: 150px 0 38px 128px;
+    text-align: center;
+    margin-bottom: 160px;
+    box-sizing: border-box;
+  }
+
+  .product-wrap .casszero {
+    width: 100%;
+    max-width: 1480px;
+    background: url(../img/product-bg03-pc.png) no-repeat right 0;
+    padding: 150px 0 0px 128px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  .product-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    cursor: pointer;
+    margin: 30px 0 0 0;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    box-shadow: 6px 6px 6.72px 0.28px rgba(0, 0, 0, 0.14);
+  }
+
+  .text-box .test {
+    margin-bottom: 15px;
+  }
+
+  .casszero .text-box p:last-child {
+    margin-bottom: 50px;
+  }
+}
