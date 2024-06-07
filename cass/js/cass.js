@@ -1,17 +1,4 @@
 		$(function () {
-			$(".menu").click(function () {
-				$(this).toggleClass('on');
-				if ($(this).hasClass("on") == true) {
-					$("nav").css({
-						"display": "block"
-					});
-				} else {
-					$("nav").css({
-						"display": "none"
-					});
-				}
-			});
-
 			$(window).scroll(function () {
 				var win_s = $(window).scrollTop();
 				var win_h = $(window).height();
