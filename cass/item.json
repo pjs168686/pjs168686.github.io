@@ -3,21 +3,21 @@
     "id": 0,
     "title": "카스 프레쉬 캔 맥주 355ml 6캔",
     "price": "10500원",
-    "img": "cass/img/CassFresh.png",
+    "img": "../../public/img/CassFresh.png",
     "detail": null
   },
   {
     "id": 1,
     "title": "카스 라이트 캔 맥주 355ml 6캔",
     "price": "10500원",
-    "img": "cass/img/CassLight.png",
+    "img": "../../public/img/CassLight.png",
     "detail": null
   },
   {
     "id": 2,
     "title": "카스 제로 캔 맥주 355ml 6캔",
     "price": "10500원",
-    "img": "cass/img/CassZero.png",
-    "detail": "cass/img/cass0.0-detail.jpg"
+    "img": "../../public/img/CassZero.png",
+    "detail": "../../public/img/cass0.0-detail.jpg"
   }
 ]
